@@ -1085,7 +1085,14 @@ const SiteSettings = _ref4 => {
   }, activeTab === '1' && /*#__PURE__*/external_React_default().createElement(Home_CMSManage, {
     options: options,
     setOptions: handleOptionChange
-  }), activeTab === '2' && /*#__PURE__*/external_React_default().createElement((external_React_default()).Fragment, null, /*#__PURE__*/external_React_default().createElement(Accordion/* Accordion */.n, {
+  }), activeTab === '2' && /*#__PURE__*/external_React_default().createElement((external_React_default()).Fragment, null, /*#__PURE__*/external_React_default().createElement("span", {
+    style: {
+      fontSize: 11
+    }
+  }, "To capture scripts and styles, ", /*#__PURE__*/external_React_default().createElement("a", {
+    href: `${window.addifectStudio?.home}/?addifect_captured_assets=1`,
+    target: "_blank"
+  }, "visit this link"), "after publishing your Addifect design. Then, refresh this page."), /*#__PURE__*/external_React_default().createElement(Accordion/* Accordion */.n, {
     variant: "separated",
     radius: "md"
   }, /*#__PURE__*/external_React_default().createElement(Accordion/* Accordion */.n.Item, {

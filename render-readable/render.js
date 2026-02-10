@@ -1239,7 +1239,6 @@ const SurfaceProvider = _ref => {
       newHandleVariantChange(triggerBlockId, variantId, visited);
     });
   };
-  console.log(pageBlocks, 'pageee');
   return /*#__PURE__*/external_React_default().createElement(SurfaceContext.Provider, {
     value: {
       postData,
@@ -4285,7 +4284,6 @@ const RenderBlock = _ref3 => {
   if (!block) {
     return;
   }
-  console.log(block, 'bbb');
   blockDataUtils(block); // generate block data design & options
 
   const type = block?.t;

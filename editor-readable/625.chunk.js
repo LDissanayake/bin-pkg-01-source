@@ -8947,7 +8947,6 @@ const RenderBlock = _ref3 => {
   if (!block) {
     return;
   }
-  console.log(block, 'bbb');
   (0,blockDataUtils/* default */.A)(block); // generate block data design & options
 
   const type = block?.t;
@@ -9131,7 +9130,6 @@ const SurfaceProvider = _ref => {
       newHandleVariantChange(triggerBlockId, variantId, visited);
     });
   };
-  console.log(pageBlocks, 'pageee');
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SurfaceContext.Provider, {
     value: {
       postData,

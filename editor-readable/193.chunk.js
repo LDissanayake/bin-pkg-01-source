@@ -7767,7 +7767,7 @@ const generateSSRStyle = function (styleData) {
   ${lightMode}
 }
 
-:root {
+body {
   background: var(--addifect-color-background);
   color: var(--addifect-color-text);
   font-family: var(--addifect-font-body);
