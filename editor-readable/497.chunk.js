@@ -1090,7 +1090,7 @@ const SiteSettings = _ref4 => {
       fontSize: 11
     }
   }, "To capture scripts and styles, ", /*#__PURE__*/external_React_default().createElement("a", {
-    href: `${window.addifectStudio?.home}/?addifect_captured_assets=1`,
+    href: `${window.addifectStudio?.home}/?addifect_capture_assets=1`,
     target: "_blank"
   }, "visit this link"), "after publishing your Addifect design. Then, refresh this page."), /*#__PURE__*/external_React_default().createElement(Accordion/* Accordion */.n, {
     variant: "separated",

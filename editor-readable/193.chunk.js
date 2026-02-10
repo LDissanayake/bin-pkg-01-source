@@ -1061,8 +1061,8 @@ function generateId(existingIds) {
 var optionCodec = __webpack_require__(854);
 // EXTERNAL MODULE: ./src/BlockEditor/util/styleCodec.ts
 var styleCodec = __webpack_require__(4390);
-// EXTERNAL MODULE: ./src/BlockEditor/Blocks/assets.tsx + 3 modules
-var assets = __webpack_require__(8355);
+// EXTERNAL MODULE: ./src/BlockEditor/Blocks/assets.tsx + 4 modules
+var assets = __webpack_require__(4787);
 ;// CONCATENATED MODULE: ./src/BlockEditor/AddPanel.tsx
 
 
