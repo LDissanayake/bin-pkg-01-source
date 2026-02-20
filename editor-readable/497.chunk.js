@@ -939,11 +939,12 @@ const Inside = () => {
     className: Home_module/* top_bar_filter */.p4
   }, /*#__PURE__*/external_React_default().createElement(Loader, {
     loaded: !loading
-  }), loading ? '' : /*#__PURE__*/external_React_default().createElement((external_React_default()).Fragment, null, [{
-    'id': 'addifect_design',
-    'label': 'Designs',
-    'type': 'design'
-  }].map((item, i) => {
+  }), loading ? '' : /*#__PURE__*/external_React_default().createElement((external_React_default()).Fragment, null, postTypes.map((item, i) => {
+    {/* {[{
+      'id': 'addifect_design',
+      'label': 'Designs',
+      'type': 'design',
+     }].map((item, i) => { */}
     const active = activeType === item.id;
     return /*#__PURE__*/external_React_default().createElement(FilterItem, {
       key: item.id,
@@ -964,7 +965,7 @@ const Inside = () => {
     className: Home_module/* top_bar_author_placeholder */.ub
   }, /*#__PURE__*/external_React_default().createElement(react_icons_esm/* PersonIcon */.nXn, null)))), activeType ? /*#__PURE__*/external_React_default().createElement(Cards, {
     id: activeType,
-    slug: 'design'
+    slug: activeType
   }) : ''))), dialog === 'settings' && /*#__PURE__*/external_React_default().createElement(SiteSettings, {
     close: () => setDialog(null)
   }));
@@ -1238,7 +1239,7 @@ const Loader = _ref6 => {
 // Define the available tiers
 
 // Lazy-loaded components
-const BlockEditor = /*#__PURE__*/external_React_default().lazy(() => Promise.all(/* import() */[__webpack_require__.e(489), __webpack_require__.e(61), __webpack_require__.e(625), __webpack_require__.e(193)]).then(__webpack_require__.bind(__webpack_require__, 1193)));
+const BlockEditor = /*#__PURE__*/external_React_default().lazy(() => Promise.all(/* import() */[__webpack_require__.e(874), __webpack_require__.e(443), __webpack_require__.e(625), __webpack_require__.e(40)]).then(__webpack_require__.bind(__webpack_require__, 1040)));
 // 1. DEFINE IMMEDIATELY (Top Level)
 window.AddifectCore = window.AddifectCore || {
   version: '1.0.0',

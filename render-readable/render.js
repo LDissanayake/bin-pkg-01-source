@@ -2387,7 +2387,7 @@ function Base(_ref) {
   }, /*#__PURE__*/React.createElement("style", null, dynamicCSS), /*#__PURE__*/React.createElement(DynamicTag, _extends({
     ref: nodeRef,
     "data-node-theme": resolvedTheme,
-    className: `axd-base-node ${id} ${gradClass} axd-base-node-active ${displayClass}`
+    className: `addifect-base-node ${id} ${gradClass} addifect-base-node-active ${displayClass}`
   }, data, accessibilityProps), children));
 }
 
@@ -2546,7 +2546,7 @@ function BasePreview(_ref2) {
     ref: nodeRef,
     "data-node": id,
     "data-node-theme": resolvedTheme,
-    className: `axd-base-node ${id} ${gradClass} ${displayClass} ${isInFold ? 'axd-base-node-active' : ''}`
+    className: `addifect-base-node ${id} ${gradClass} ${displayClass} ${isInFold ? 'addifect-base-node-active' : ''}`
   }, accessibilityProps, linkProps, {
     onMouseEnter: e => {
       // e.stopPropagation()
@@ -2774,7 +2774,7 @@ function Text(_ref) {
     ref: nodeRef,
     "data-node": id,
     "data-node-theme": resolvedTheme,
-    className: `axd-base-node ${id} ${gradClass}`,
+    className: `addifect-base-node ${id} ${gradClass}`,
     dangerouslySetInnerHTML: {
       __html: content
     },
@@ -2898,7 +2898,7 @@ function TextRender(_ref2) {
     ref: nodeRef,
     "data-node": id,
     "data-node-theme": resolvedTheme,
-    className: `axd-base-node ${id} ${gradClass}`,
+    className: `addifect-base-node ${id} ${gradClass}`,
     onMouseEnter: e => {
       // e.stopPropagation()
       if (currentMap?.en) {
@@ -3636,38 +3636,38 @@ function GlobalStyle() {
     /* =========================================================
       AXD Foundation
       Addifect Experience Design
-      Scope: .axd-root
+      Scope: .addifect-root
       ========================================================= */
 
     /* ---------- Box sizing (non-negotiable) ---------- */
-    .axd-root,
-    .axd-root *,
-    .axd-root *::before,
-    .axd-root *::after {
+    .addifect-root,
+    .addifect-root *,
+    .addifect-root *::before,
+    .addifect-root *::after {
       box-sizing: border-box;
     }
 
     /* ---------- Typography inheritance ---------- */
-    .axd-root {
-      // font-family: var(--axd-font-body, system-ui);
-      font-size: var(--axd-text-base, 16px);
+    .addifect-root {
+      // font-family: var(--addifect-font-body, system-ui);
+      font-size: var(--addifect-text-base, 16px);
       line-height: 1.5;
-      // color: var(--axd-color-text, currentColor);
+      // color: var(--addifect-color-text, currentColor);
       text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
       position: relative;
     }
 
-    .axd-root button,
-    .axd-root input,
-    .axd-root textarea,
-    .axd-root select {
+    .addifect-root button,
+    .addifect-root input,
+    .addifect-root textarea,
+    .addifect-root select {
       font: inherit;
       color: inherit;
     }
 
     /* ---------- Margin normalization (system-only) ---------- */
-    .axd-root :where(
+    .addifect-root :where(
       h1, h2, h3, h4, h5, h6,
       p,
       ul, ol,
@@ -3679,42 +3679,42 @@ function GlobalStyle() {
     }
 
     /* ---------- Lists (intentional only) ---------- */
-    .axd-root ul,
-    .axd-root ol {
+    .addifect-root ul,
+    .addifect-root ol {
       padding: 0;
       list-style: none;
     }
 
     /* ---------- Media behavior ---------- */
-    .axd-root img,
-    .axd-root video,
-    .axd-root canvas,
-    .axd-root svg {
+    .addifect-root img,
+    .addifect-root video,
+    .addifect-root canvas,
+    .addifect-root svg {
       display: block;
       max-width: 100%;
       height: auto;
     }
 
     /* ---------- Anchor behavior ---------- */
-    .axd-root a {
+    .addifect-root a {
       color: inherit;
       text-decoration: none;
     }
 
-    .axd-root a:focus-visible,
-    .axd-root button:focus-visible {
+    .addifect-root a:focus-visible,
+    .addifect-root button:focus-visible {
       outline: 2px solid currentColor;
       outline-offset: 2px;
     }
 
     /* ---------- Tables ---------- */
-    .axd-root table {
+    .addifect-root table {
       border-collapse: collapse;
       border-spacing: 0;
     }
 
     /* THE MASTER GOD CLASS */
-    .axd-base-node {
+    .addifect-base-node {
       --container-bp: 9999;
       display: var(--dp, block);
       position: var(--po, 'static');
@@ -3777,8 +3777,8 @@ function GlobalStyle() {
     }
 
     /* GRADIENT SUBCLASSES */
-    .axd-grad-linear { background-image: linear-gradient(var(--ga), var(--g1), var(--g2), var(--g3)); }
-    .axd-grad-radial { background-image: radial-gradient(circle at var(--gx) var(--gy), var(--g1), var(--g2), var(--g3)); }
+    .addifect-grad-linear { background-image: linear-gradient(var(--ga), var(--g1), var(--g2), var(--g3)); }
+    .addifect-grad-radial { background-image: radial-gradient(circle at var(--gx) var(--gy), var(--g1), var(--g2), var(--g3)); }
 
     /* SUB-CLASS: FLEX SCOPE */
     .layout-flex {
@@ -3886,7 +3886,7 @@ function GlobalStyle() {
     @property --zi { syntax: 'auto | <integer>'; inherits: false; initial-value: auto; }
 
     /* THE ACTIVE TRANSITION CLASS */
-    .axd-base-node-active {
+    .addifect-base-node-active {
       will-change: width, height, min-width, max-width, min-height, max-height, transform, filter, opacity, background-image, box-shadow;
       transition: 
         --w var(--w-du, var(--default-du)) var(--w-e, var(--default-e)),
@@ -3970,10 +3970,10 @@ const StyleHost = _ref => {
   }, []);
   (0,external_React_.useEffect)(() => {
     const css = getAllStylesCSR();
-    let styleTag = document.head.querySelector('style#addifect-style-root');
+    let styleTag = document.head.querySelector('style#addifect-style-root-inline-css');
     if (!styleTag) {
       styleTag = document.createElement('style');
-      styleTag.id = 'addifect-style-root';
+      styleTag.id = 'addifect-style-root-inline-css';
       document.head.appendChild(styleTag);
     }
     styleTag.textContent = css;

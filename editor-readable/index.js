@@ -15,15 +15,15 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
 
 const SvgLogo = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
-  viewBox: "0 0 51.232 58.48"
+  viewBox: "0 0 51.116 58.217"
 }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-  fill: "#fff",
-  d: "M.588 57.667a3.73 3.73 0 0 0 2.154.417h5.173a5.24 5.24 0 0 0 2.873-.417 6.8 6.8 0 0 0 2.2-2.267l4.777-6.316 13.28-23.137.96-4.53V6.931s.452-3.976-.96-5.687S26.358.085 26.358.085h-9.687v19.954a6.2 6.2 0 0 1 0 2.712 7.4 7.4 0 0 1-1.389 2.5l-8.167 14.62a3.26 3.26 0 0 1-1.66 1.638 7.1 7.1 0 0 1-2.879.326H.005v14.049a2.34 2.34 0 0 0 .583 1.783",
-  "data-name": "Path 787"
+  fill: "currentColor",
+  d: "M.589 57.582a3.73 3.73 0 0 0 2.154.417h5.172a5.24 5.24 0 0 0 2.873-.417 6.8 6.8 0 0 0 2.2-2.267l4.777-6.316 7.15-11.589 4.031-6.533a27 27 0 0 0 2.564-4.9 24 24 0 0 0 .495-4.645V0H16.23v19.954a6.9 6.9 0 0 1 0 2.842 11.4 11.4 0 0 1-.947 2.369L7.115 39.786a3.26 3.26 0 0 1-1.66 1.638 7.1 7.1 0 0 1-2.879.326H.005v14.049a2.34 2.34 0 0 0 .584 1.783",
+  "data-name": "Path 1003"
 })), _path2 || (_path2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-  fill: "#fff",
-  d: "M42.119 58.481h-4a3.055 3.055 0 0 1-3-3.107V3.588a3.055 3.055 0 0 1 3-3.107h10a3.055 3.055 0 0 1 3 3.107v42.61a10.4 10.4 0 0 1 0 2.961c-.255 1.251-.314.726-1.021 2.043-1.301 2.433-4.396 7.279-7.979 7.279",
-  "data-name": "Path 790"
+  fill: "currentColor",
+  d: "M35.116.217h11a5 5 0 0 1 5 5v51a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2z",
+  "data-name": "Rectangle 4761"
 })));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SvgLogo);
 
@@ -128,7 +128,7 @@ function FullScreenLoader(_ref) {
 
 
 const App = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.lazy)(() => Promise.all(/* import() */[__webpack_require__.e(321), __webpack_require__.e(841), __webpack_require__.e(497)]).then(__webpack_require__.bind(__webpack_require__, 7497)));
-const Surface = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.lazy)(() => Promise.all(/* import() */[__webpack_require__.e(321), __webpack_require__.e(489), __webpack_require__.e(625), __webpack_require__.e(55)]).then(__webpack_require__.bind(__webpack_require__, 5625)));
+const Surface = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.lazy)(() => Promise.all(/* import() */[__webpack_require__.e(321), __webpack_require__.e(874), __webpack_require__.e(625), __webpack_require__.e(55)]).then(__webpack_require__.bind(__webpack_require__, 5625)));
 
 // Webpack public path (prod only)
 if (true) {
@@ -167,7 +167,13 @@ const router = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_2__/* .createBrowser
   })),
   errorElement: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "404 error")
 }]);
-const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__/* .createRoot */ .H)(document.getElementById('root'));
+let container = document.getElementById("addifect-studio-root");
+if (!container) {
+  container = document.createElement("div");
+  container.id = "addifect-studio-root";
+  document.body.appendChild(container);
+}
+const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__/* .createRoot */ .H)(container);
 root.render(
 /*#__PURE__*/
 // <React.StrictMode>

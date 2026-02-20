@@ -10,7 +10,6 @@
 /* harmony export */   Aon: () => (/* binding */ TransparencyGridIcon),
 /* harmony export */   FNe: () => (/* binding */ OpacityIcon),
 /* harmony export */   FnH: () => (/* binding */ BoxIcon),
-/* harmony export */   H0W: () => (/* binding */ FrameIcon),
 /* harmony export */   JJd: () => (/* binding */ CaretRightIcon),
 /* harmony export */   JSY: () => (/* binding */ ViewHorizontalIcon),
 /* harmony export */   KaV: () => (/* binding */ CheckCircledIcon),
@@ -27,7 +26,6 @@
 /* harmony export */   Sp2: () => (/* binding */ FontBoldIcon),
 /* harmony export */   Srz: () => (/* binding */ CheckIcon),
 /* harmony export */   TdU: () => (/* binding */ CopyIcon),
-/* harmony export */   Vmh: () => (/* binding */ CursorArrowIcon),
 /* harmony export */   WBl: () => (/* binding */ PlusCircledIcon),
 /* harmony export */   WhT: () => (/* binding */ Pencil1Icon),
 /* harmony export */   Wjl: () => (/* binding */ Component1Icon),
@@ -55,10 +53,11 @@
 /* harmony export */   udU: () => (/* binding */ PlayIcon),
 /* harmony export */   uiJ: () => (/* binding */ ClipboardIcon),
 /* harmony export */   vcq: () => (/* binding */ MaskOffIcon),
+/* harmony export */   xZp: () => (/* binding */ LightningBoltIcon),
 /* harmony export */   xfq: () => (/* binding */ ImageIcon),
 /* harmony export */   xrv: () => (/* binding */ ViewVerticalIcon)
 /* harmony export */ });
-/* unused harmony exports AccessibilityIcon, ActivityLogIcon, AlignBaselineIcon, AlignBottomIcon, AlignCenterHorizontallyIcon, AlignCenterVerticallyIcon, AlignLeftIcon, AlignRightIcon, AlignTopIcon, AllSidesIcon, AngleIcon, ArrowBottomLeftIcon, ArrowBottomRightIcon, ArrowDownIcon, ArrowRightIcon, ArrowTopLeftIcon, ArrowTopRightIcon, ArrowUpIcon, AspectRatioIcon, AvatarIcon, BackpackIcon, BadgeIcon, BarChartIcon, BellIcon, BlendingModeIcon, BookmarkFilledIcon, BookmarkIcon, BorderAllIcon, BorderBottomIcon, BorderDashedIcon, BorderDottedIcon, BorderLeftIcon, BorderNoneIcon, BorderRightIcon, BorderSolidIcon, BorderSplitIcon, BorderStyleIcon, BorderTopIcon, BorderWidthIcon, BoxModelIcon, CalendarIcon, CameraIcon, CardStackIcon, CardStackMinusIcon, CardStackPlusIcon, CaretLeftIcon, CaretSortIcon, CaretUpIcon, ChatBubbleIcon, CheckboxIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon, CircleBackslashIcon, CircleIcon, ClipboardCopyIcon, ClockIcon, CodeIcon, CodeSandboxLogoIcon, ColorWheelIcon, ColumnSpacingIcon, ColumnsIcon, CommitIcon, Component2Icon, ComponentBooleanIcon, ComponentNoneIcon, ComponentPlaceholderIcon, ContainerIcon, CookieIcon, CornerBottomLeftIcon, CornerBottomRightIcon, CornerTopLeftIcon, CornerTopRightIcon, CornersIcon, CountdownTimerIcon, CounterClockwiseClockIcon, CropIcon, Cross1Icon, Crosshair1Icon, Crosshair2Icon, CrumpledPaperIcon, CubeIcon, CursorTextIcon, DashIcon, DashboardIcon, DesktopIcon, DiscIcon, DiscordLogoIcon, DividerHorizontalIcon, DividerVerticalIcon, DotFilledIcon, DotIcon, DotsVerticalIcon, DoubleArrowDownIcon, DoubleArrowLeftIcon, DoubleArrowRightIcon, DoubleArrowUpIcon, DownloadIcon, DragHandleDots1Icon, DragHandleDots2Icon, DragHandleHorizontalIcon, DragHandleVerticalIcon, DrawingPinFilledIcon, DrawingPinIcon, DropdownMenuIcon, EnterFullScreenIcon, EnterIcon, EnvelopeClosedIcon, EnvelopeOpenIcon, EraserIcon, ExclamationTriangleIcon, ExitFullScreenIcon, ExitIcon, ExternalLinkIcon, EyeClosedIcon, EyeNoneIcon, EyeOpenIcon, FaceIcon, FigmaLogoIcon, FileIcon, FileMinusIcon, FilePlusIcon, FontItalicIcon, FontRomanIcon, FontStyleIcon, FramerLogoIcon, GitHubLogoIcon, GlobeIcon, GroupIcon, Half1Icon, Half2Icon, HamburgerMenuIcon, HandIcon, HeadingIcon, HeartFilledIcon, HeartIcon, HobbyKnifeIcon, HomeIcon, IconJarLogoIcon, IdCardIcon, InputIcon, InstagramLogoIcon, KeyboardIcon, LapTimerIcon, LaptopIcon, LayersIcon, LayoutIcon, LetterCaseCapitalizeIcon, LetterCaseLowercaseIcon, LetterCaseToggleIcon, LetterCaseUppercaseIcon, LightningBoltIcon, Link1Icon, Link2Icon, LinkBreak1Icon, LinkBreak2Icon, LinkNone1Icon, LinkNone2Icon, LinkedInLogoIcon, ListBulletIcon, LockClosedIcon, LockOpen1Icon, LockOpen2Icon, LoopIcon, MagicWandIcon, MarginIcon, MaskOnIcon, MinusIcon, MixerVerticalIcon, MobileIcon, ModulzLogoIcon, MoveIcon, NotionLogoIcon, OpenInNewWindowIcon, OverlineIcon, PaddingIcon, PaperPlaneIcon, PauseIcon, PieChartIcon, PilcrowIcon, PinBottomIcon, PinLeftIcon, PinRightIcon, PinTopIcon, QuestionMarkCircledIcon, QuestionMarkIcon, QuoteIcon, RadiobuttonIcon, ReloadIcon, ResetIcon, ResumeIcon, RocketIcon, RotateCounterClockwiseIcon, RowSpacingIcon, RowsIcon, RulerHorizontalIcon, RulerSquareIcon, ScissorsIcon, SectionIcon, SewingPinFilledIcon, SewingPinIcon, ShadowIcon, ShadowInnerIcon, ShadowNoneIcon, Share1Icon, Share2Icon, ShuffleIcon, SizeIcon, SketchLogoIcon, SlashIcon, SliderIcon, SpaceBetweenHorizontallyIcon, SpaceBetweenVerticallyIcon, SpaceEvenlyHorizontallyIcon, SpaceEvenlyVerticallyIcon, SpeakerLoudIcon, SpeakerModerateIcon, SpeakerOffIcon, SpeakerQuietIcon, SquareIcon, StackIcon, StarFilledIcon, StarIcon, StitchesLogoIcon, StopIcon, StopwatchIcon, StretchHorizontallyIcon, StretchVerticallyIcon, StrikethroughIcon, SwitchIcon, SymbolIcon, TargetIcon, TextAlignBottomIcon, TextAlignCenterIcon, TextAlignJustifyIcon, TextAlignLeftIcon, TextAlignMiddleIcon, TextAlignRightIcon, TextAlignTopIcon, TextNoneIcon, ThickArrowDownIcon, ThickArrowLeftIcon, ThickArrowRightIcon, ThickArrowUpIcon, TimerIcon, TokensIcon, TrackNextIcon, TrackPreviousIcon, TransformIcon, TriangleDownIcon, TriangleLeftIcon, TriangleRightIcon, TriangleUpIcon, TwitterLogoIcon, UnderlineIcon, UpdateIcon, UploadIcon, ValueIcon, ValueNoneIcon, VercelLogoIcon, VideoIcon, ViewGridIcon, ViewNoneIcon, ZoomInIcon, ZoomOutIcon */
+/* unused harmony exports AccessibilityIcon, ActivityLogIcon, AlignBaselineIcon, AlignBottomIcon, AlignCenterHorizontallyIcon, AlignCenterVerticallyIcon, AlignLeftIcon, AlignRightIcon, AlignTopIcon, AllSidesIcon, AngleIcon, ArrowBottomLeftIcon, ArrowBottomRightIcon, ArrowDownIcon, ArrowRightIcon, ArrowTopLeftIcon, ArrowTopRightIcon, ArrowUpIcon, AspectRatioIcon, AvatarIcon, BackpackIcon, BadgeIcon, BarChartIcon, BellIcon, BlendingModeIcon, BookmarkFilledIcon, BookmarkIcon, BorderAllIcon, BorderBottomIcon, BorderDashedIcon, BorderDottedIcon, BorderLeftIcon, BorderNoneIcon, BorderRightIcon, BorderSolidIcon, BorderSplitIcon, BorderStyleIcon, BorderTopIcon, BorderWidthIcon, BoxModelIcon, CalendarIcon, CameraIcon, CardStackIcon, CardStackMinusIcon, CardStackPlusIcon, CaretLeftIcon, CaretSortIcon, CaretUpIcon, ChatBubbleIcon, CheckboxIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon, CircleBackslashIcon, CircleIcon, ClipboardCopyIcon, ClockIcon, CodeIcon, CodeSandboxLogoIcon, ColorWheelIcon, ColumnSpacingIcon, ColumnsIcon, CommitIcon, Component2Icon, ComponentBooleanIcon, ComponentNoneIcon, ComponentPlaceholderIcon, ContainerIcon, CookieIcon, CornerBottomLeftIcon, CornerBottomRightIcon, CornerTopLeftIcon, CornerTopRightIcon, CornersIcon, CountdownTimerIcon, CounterClockwiseClockIcon, CropIcon, Cross1Icon, Crosshair1Icon, Crosshair2Icon, CrumpledPaperIcon, CubeIcon, CursorArrowIcon, CursorTextIcon, DashIcon, DashboardIcon, DesktopIcon, DiscIcon, DiscordLogoIcon, DividerHorizontalIcon, DividerVerticalIcon, DotFilledIcon, DotIcon, DotsVerticalIcon, DoubleArrowDownIcon, DoubleArrowLeftIcon, DoubleArrowRightIcon, DoubleArrowUpIcon, DownloadIcon, DragHandleDots1Icon, DragHandleDots2Icon, DragHandleHorizontalIcon, DragHandleVerticalIcon, DrawingPinFilledIcon, DrawingPinIcon, DropdownMenuIcon, EnterFullScreenIcon, EnterIcon, EnvelopeClosedIcon, EnvelopeOpenIcon, EraserIcon, ExclamationTriangleIcon, ExitFullScreenIcon, ExitIcon, ExternalLinkIcon, EyeClosedIcon, EyeNoneIcon, EyeOpenIcon, FaceIcon, FigmaLogoIcon, FileIcon, FileMinusIcon, FilePlusIcon, FontItalicIcon, FontRomanIcon, FontStyleIcon, FrameIcon, FramerLogoIcon, GitHubLogoIcon, GlobeIcon, GroupIcon, Half1Icon, Half2Icon, HamburgerMenuIcon, HandIcon, HeadingIcon, HeartFilledIcon, HeartIcon, HobbyKnifeIcon, HomeIcon, IconJarLogoIcon, IdCardIcon, InputIcon, InstagramLogoIcon, KeyboardIcon, LapTimerIcon, LaptopIcon, LayersIcon, LayoutIcon, LetterCaseCapitalizeIcon, LetterCaseLowercaseIcon, LetterCaseToggleIcon, LetterCaseUppercaseIcon, Link1Icon, Link2Icon, LinkBreak1Icon, LinkBreak2Icon, LinkNone1Icon, LinkNone2Icon, LinkedInLogoIcon, ListBulletIcon, LockClosedIcon, LockOpen1Icon, LockOpen2Icon, LoopIcon, MagicWandIcon, MarginIcon, MaskOnIcon, MinusIcon, MixerVerticalIcon, MobileIcon, ModulzLogoIcon, MoveIcon, NotionLogoIcon, OpenInNewWindowIcon, OverlineIcon, PaddingIcon, PaperPlaneIcon, PauseIcon, PieChartIcon, PilcrowIcon, PinBottomIcon, PinLeftIcon, PinRightIcon, PinTopIcon, QuestionMarkCircledIcon, QuestionMarkIcon, QuoteIcon, RadiobuttonIcon, ReloadIcon, ResetIcon, ResumeIcon, RocketIcon, RotateCounterClockwiseIcon, RowSpacingIcon, RowsIcon, RulerHorizontalIcon, RulerSquareIcon, ScissorsIcon, SectionIcon, SewingPinFilledIcon, SewingPinIcon, ShadowIcon, ShadowInnerIcon, ShadowNoneIcon, Share1Icon, Share2Icon, ShuffleIcon, SizeIcon, SketchLogoIcon, SlashIcon, SliderIcon, SpaceBetweenHorizontallyIcon, SpaceBetweenVerticallyIcon, SpaceEvenlyHorizontallyIcon, SpaceEvenlyVerticallyIcon, SpeakerLoudIcon, SpeakerModerateIcon, SpeakerOffIcon, SpeakerQuietIcon, SquareIcon, StackIcon, StarFilledIcon, StarIcon, StitchesLogoIcon, StopIcon, StopwatchIcon, StretchHorizontallyIcon, StretchVerticallyIcon, StrikethroughIcon, SwitchIcon, SymbolIcon, TargetIcon, TextAlignBottomIcon, TextAlignCenterIcon, TextAlignJustifyIcon, TextAlignLeftIcon, TextAlignMiddleIcon, TextAlignRightIcon, TextAlignTopIcon, TextNoneIcon, ThickArrowDownIcon, ThickArrowLeftIcon, ThickArrowRightIcon, ThickArrowUpIcon, TimerIcon, TokensIcon, TrackNextIcon, TrackPreviousIcon, TransformIcon, TriangleDownIcon, TriangleLeftIcon, TriangleRightIcon, TriangleUpIcon, TwitterLogoIcon, UnderlineIcon, UpdateIcon, UploadIcon, ValueIcon, ValueNoneIcon, VercelLogoIcon, VideoIcon, ViewGridIcon, ViewNoneIcon, ZoomInIcon, ZoomOutIcon */
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1609);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -3349,13 +3348,13 @@ var CubeIcon = /*#__PURE__*/(/* unused pure expression or super */ null && (forw
   }));
 })));
 
-var _excluded$1x = ["color"];
-var CursorArrowIcon = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (_ref, forwardedRef) {
+var _excluded$1x = (/* unused pure expression or super */ null && (["color"]));
+var CursorArrowIcon = /*#__PURE__*/(/* unused pure expression or super */ null && (forwardRef(function (_ref, forwardedRef) {
   var _ref$color = _ref.color,
       color = _ref$color === void 0 ? 'currentColor' : _ref$color,
       props = _objectWithoutPropertiesLoose(_ref, _excluded$1x);
 
-  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("svg", Object.assign({
+  return createElement("svg", Object.assign({
     width: "15",
     height: "15",
     viewBox: "0 0 15 15",
@@ -3363,13 +3362,13 @@ var CursorArrowIcon = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forward
     xmlns: "http://www.w3.org/2000/svg"
   }, props, {
     ref: forwardedRef
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
+  }), createElement("path", {
     d: "M3.29227 0.048984C3.47033 -0.032338 3.67946 -0.00228214 3.8274 0.125891L12.8587 7.95026C13.0134 8.08432 13.0708 8.29916 13.0035 8.49251C12.9362 8.68586 12.7578 8.81866 12.5533 8.82768L9.21887 8.97474L11.1504 13.2187C11.2648 13.47 11.1538 13.7664 10.9026 13.8808L8.75024 14.8613C8.499 14.9758 8.20255 14.8649 8.08802 14.6137L6.15339 10.3703L3.86279 12.7855C3.72196 12.934 3.50487 12.9817 3.31479 12.9059C3.1247 12.8301 3 12.6461 3 12.4414V0.503792C3 0.308048 3.11422 0.130306 3.29227 0.048984ZM4 1.59852V11.1877L5.93799 9.14425C6.05238 9.02363 6.21924 8.96776 6.38319 8.99516C6.54715 9.02256 6.68677 9.12965 6.75573 9.2809L8.79056 13.7441L10.0332 13.178L8.00195 8.71497C7.93313 8.56376 7.94391 8.38824 8.03072 8.24659C8.11753 8.10494 8.26903 8.01566 8.435 8.00834L11.2549 7.88397L4 1.59852Z",
     fill: color,
     fillRule: "evenodd",
     clipRule: "evenodd"
   }));
-});
+})));
 
 var _excluded$1y = (/* unused pure expression or super */ null && (["color"]));
 var CursorTextIcon = /*#__PURE__*/(/* unused pure expression or super */ null && (forwardRef(function (_ref, forwardedRef) {
@@ -4563,13 +4562,13 @@ var FontStyleIcon = /*#__PURE__*/(/* unused pure expression or super */ null && 
   }));
 })));
 
-var _excluded$2j = ["color"];
-var FrameIcon = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (_ref, forwardedRef) {
+var _excluded$2j = (/* unused pure expression or super */ null && (["color"]));
+var FrameIcon = /*#__PURE__*/(/* unused pure expression or super */ null && (forwardRef(function (_ref, forwardedRef) {
   var _ref$color = _ref.color,
       color = _ref$color === void 0 ? 'currentColor' : _ref$color,
       props = _objectWithoutPropertiesLoose(_ref, _excluded$2j);
 
-  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("svg", Object.assign({
+  return createElement("svg", Object.assign({
     width: "15",
     height: "15",
     viewBox: "0 0 15 15",
@@ -4577,13 +4576,13 @@ var FrameIcon = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(f
     xmlns: "http://www.w3.org/2000/svg"
   }, props, {
     ref: forwardedRef
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
+  }), createElement("path", {
     d: "M11 1.5C11 1.22386 10.7761 1 10.5 1C10.2239 1 10 1.22386 10 1.5V4H5V1.5C5 1.22386 4.77614 1 4.5 1C4.22386 1 4 1.22386 4 1.5V4H1.5C1.22386 4 1 4.22386 1 4.5C1 4.77614 1.22386 5 1.5 5H4V10H1.5C1.22386 10 1 10.2239 1 10.5C1 10.7761 1.22386 11 1.5 11H4V13.5C4 13.7761 4.22386 14 4.5 14C4.77614 14 5 13.7761 5 13.5V11H10V13.5C10 13.7761 10.2239 14 10.5 14C10.7761 14 11 13.7761 11 13.5V11H13.5C13.7761 11 14 10.7761 14 10.5C14 10.2239 13.7761 10 13.5 10H11V5H13.5C13.7761 5 14 4.77614 14 4.5C14 4.22386 13.7761 4 13.5 4H11V1.5ZM10 10V5H5V10H10Z",
     fill: color,
     fillRule: "evenodd",
     clipRule: "evenodd"
   }));
-});
+})));
 
 var _excluded$2k = (/* unused pure expression or super */ null && (["color"]));
 var FramerLogoIcon = /*#__PURE__*/(/* unused pure expression or super */ null && (forwardRef(function (_ref, forwardedRef) {
@@ -5304,13 +5303,13 @@ var LetterSpacingIcon = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwa
   }));
 });
 
-var _excluded$2Q = (/* unused pure expression or super */ null && (["color"]));
-var LightningBoltIcon = /*#__PURE__*/(/* unused pure expression or super */ null && (forwardRef(function (_ref, forwardedRef) {
+var _excluded$2Q = ["color"];
+var LightningBoltIcon = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (_ref, forwardedRef) {
   var _ref$color = _ref.color,
       color = _ref$color === void 0 ? 'currentColor' : _ref$color,
       props = _objectWithoutPropertiesLoose(_ref, _excluded$2Q);
 
-  return createElement("svg", Object.assign({
+  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("svg", Object.assign({
     width: "15",
     height: "15",
     viewBox: "0 0 15 15",
@@ -5318,13 +5317,13 @@ var LightningBoltIcon = /*#__PURE__*/(/* unused pure expression or super */ null
     xmlns: "http://www.w3.org/2000/svg"
   }, props, {
     ref: forwardedRef
-  }), createElement("path", {
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
     d: "M8.69667 0.0403541C8.90859 0.131038 9.03106 0.354857 8.99316 0.582235L8.0902 6.00001H12.5C12.6893 6.00001 12.8625 6.10701 12.9472 6.27641C13.0319 6.4458 13.0136 6.6485 12.8999 6.80001L6.89997 14.8C6.76167 14.9844 6.51521 15.0503 6.30328 14.9597C6.09135 14.869 5.96888 14.6452 6.00678 14.4178L6.90974 9H2.49999C2.31061 9 2.13748 8.893 2.05278 8.72361C1.96809 8.55422 1.98636 8.35151 2.09999 8.2L8.09997 0.200038C8.23828 0.0156255 8.48474 -0.0503301 8.69667 0.0403541ZM3.49999 8.00001H7.49997C7.64695 8.00001 7.78648 8.06467 7.88148 8.17682C7.97648 8.28896 8.01733 8.43723 7.99317 8.5822L7.33027 12.5596L11.5 7.00001H7.49997C7.353 7.00001 7.21347 6.93534 7.11846 6.8232C7.02346 6.71105 6.98261 6.56279 7.00678 6.41781L7.66968 2.44042L3.49999 8.00001Z",
     fill: color,
     fillRule: "evenodd",
     clipRule: "evenodd"
   }));
-})));
+});
 
 var _excluded$2R = ["color"];
 var LineHeightIcon = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (_ref, forwardedRef) {
