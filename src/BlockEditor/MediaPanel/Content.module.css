@@ -1,0 +1,94 @@
+.wrap {
+  display: block;
+  height: 100%;
+  padding: 0 4px;
+}
+
+.initLoadWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.initLoad {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  & span {
+    font-size: 14px;
+  }
+}
+
+.mediaGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  /* Adjust min-width as needed */
+  grid-gap: 16px;
+  /* Adjust spacing between items */
+  grid-auto-rows: auto;
+  /* Automatically adjusts row height */
+  width: 100%;
+  margin-top: 4px;
+}
+
+.mediaItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--mantine-color-dark-6);
+}
+
+.mediaItemSelected {
+  
+}
+
+.selectedMedia {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 6px;
+  right: 6px;
+  border-radius: 32px;
+  background-color: var(--mantine-color-blue-6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadmoreWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  width: 100%;
+}
+
+/* Apply rotation */
+.rotate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1/1;
+  transform-origin: center;
+  animation: rotate 5s linear infinite;
+}
+
+/* Keyframes for infinite rotation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}

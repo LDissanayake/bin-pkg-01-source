@@ -1,0 +1,10 @@
+.dropBtn {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &[data-expand="true"] {
+        transform: rotate(-180deg);
+    }
+}

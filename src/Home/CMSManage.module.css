@@ -1,0 +1,79 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    border-bottom: 1px solid var(--mantine-color-dark-5);
+    padding: 6px 0;
+    margin: 0 0 24px;
+}
+
+.titleCol {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.formWrap {
+    border: 1px solid var(--mantine-color-dark-5);
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.controlWrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 6px;
+}
+
+.controlCol {
+    flex: 1;
+}
+
+.controlLabel {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    &:hover .controlLabelInfo {
+        opacity: 1;
+    }
+}
+
+.controlLabelText {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.controlLabelInfo {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+}
+
+.postItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--mantine-color-dark-5);
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+.postTitle {
+    font-size: 13px;
+    font-weight: 500;
+    span {
+        font-size: 10px;
+        color: var(--mantine-color-blue-6);
+        display: block;
+    }
+}
+
+.postActions {
+    display: flex;
+    gap: 4px;
+}

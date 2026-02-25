@@ -1,0 +1,36 @@
+.preview {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: var(--in-c);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff7d;
+    background-size: cover;
+    background-position: center;
+
+    &_actions {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        gap: 4px;
+        padding: 4px;
+    }
+    &_action {
+        width: 20px;
+        height: 20px;
+        border-radius: 6px;
+        color: #333;
+        background: #fff;
+        box-shadow: #5c6878 0 0 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &[data-delete] {
+            color: rgb(138, 50, 50);
+        }
+    }
+}

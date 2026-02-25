@@ -1,0 +1,73 @@
+.saveBtn {
+    background: rgb(153 177 210);
+    width: 52px;
+    height: 100%;
+    position: relative;
+    padding: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 400;
+    color: #fff;
+    transition: background 0.25s ease;
+}
+
+/* Disabled state */
+.saveBtn[disabled] {
+    pointer-events: none;
+    background: #2C2C2C;
+    color: #535353;
+}
+
+/* Temporary success (green) */
+.saveBtn.success {
+    background: #1EA75A; /* nicer green */
+}
+
+/* Wrapper to enable slide transitions */
+.iconWrapper {
+    display: flex;
+    height: 14px;    /* match your icon height */
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Slide animation */
+.slide {
+    animation: slideUp 0.25s ease forwards;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(4px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Text fits with same slide style */
+.text {
+    animation: slideUp 0.25s ease forwards;
+}
+
+
+.savingShimmer {
+    background: linear-gradient(
+        110deg,
+        #0049A8 0%,
+        #2568C0 40%,
+        #0049A8 80%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.2s linear infinite;
+}
+
+@keyframes shimmer {
+    0%   { background-position: 0% 0; }
+    100% { background-position: -200% 0; }
+}

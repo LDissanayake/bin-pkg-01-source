@@ -1,0 +1,265 @@
+ :root {
+     --accent-color: rgb(153 177 210);
+     --accent-subtle: rgba(153, 177, 210, 0.5);
+     --accent-glow: rgba(153, 177, 210, 0.3);
+     --neutral-active: #3b3b3b;
+ }
+
+ /* layout */
+ .sidebarContent {
+     padding: 12px 0;
+     flex: 1;
+     overflow-y: auto;
+ }
+
+ .dualHeader {
+     display: grid;
+     gap: 8px;
+     justify-content: space-between;
+     grid-template-columns: 1fr 1fr;
+ }
+
+ /* context box */
+ .contextBox {
+     background-color: #2b2b2b;
+     border-radius: 6px;
+     border: 1px solid rgba(255, 255, 255, 0.05);
+     padding: 4px;
+     display: flex;
+     flex-direction: column;
+     gap: 4px;
+ }
+
+ .boxHeader {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 4px;
+     height: 18px;
+ }
+
+ .boxLabel {
+     font-size: 8px;
+     font-weight: 500;
+     text-transform: uppercase;
+     color: #e9e9e9;
+     opacity: .5;
+ }
+
+ .directionControls {
+     display: flex;
+     gap: 2px;
+ }
+
+ .dirBtn {
+     padding: 2px;
+     border-radius: 2px;
+     background: none;
+     border: none;
+     color: #9e9e9e;
+     cursor: pointer;
+     transition: color 0.2s;
+ }
+
+ .dirBtn.active {
+     color: var(--accent-color);
+ }
+
+ /* mini preview */
+ .contextMiniView {
+     flex: 1;
+     background-color: #1e1e1e;
+     border-radius: 3px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     overflow: hidden;
+     aspect-ratio: 3/2;
+     padding: 2px;
+ }
+
+ .miniViewport {
+     width: 100%;
+     height: 100%;
+ }
+
+ .miniItem {
+     min-width: 8px;
+     background-color: var(--accent-subtle);
+     flex-shrink: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 9px;
+     color: white;
+     transition: all 0.3s;
+ }
+
+ .isStretched {
+     border-radius: 2px;
+ }
+
+ .isCircle {
+     border-radius: 3px;
+     min-width: 12px;
+ }
+
+ /* alignment panel */
+ .alignmentWrapper {
+     /* width: 122px; */
+ }
+
+ .alignmentBox {
+     height: 100%;
+     background-color: #2b2b2b;
+     border-radius: 6px;
+     border: 1px solid rgba(255, 255, 255, 0.05);
+     padding: 4px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .headerActions {
+     display: flex;
+     align-items: center;
+     gap: 2px;
+ }
+
+ .actionBtn {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: none;
+     border: none;
+     color: #9e9e9e;
+     cursor: pointer;
+     transition: color 0.2s;
+
+     svg {
+         max-width: 14px;
+         max-height: 14px;
+     }
+ }
+
+ .actionBtn.active {
+     color: var(--accent-color);
+ }
+
+ .actionBtn_lg {
+     position: relative;
+
+     svg {
+         max-width: 16px;
+         max-height: 16px;
+     }
+
+ }
+
+ /* matrix */
+ .matrixGrid {
+     flex: 1;
+     display: grid;
+     gap: 4px;
+     padding: 2px 0;
+ }
+
+ .standardGrid {
+     height: 80px;
+     grid-template-columns: repeat(3, 1fr);
+ }
+
+ .distRow {
+     grid-template-columns: 1fr;
+     justify-items: center;
+ }
+
+ .distCol {
+     grid-template-columns: repeat(3, 1fr);
+     align-items: center;
+ }
+
+ .cell {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+ }
+
+ .indicator {
+     background-color: #444;
+     transition: all 0.3s;
+ }
+
+ .indicator.active {
+     background-color: var(--accent-color);
+     box-shadow: 0 0 8px var(--accent-glow);
+ }
+
+ .dot {
+     width: 6px;
+     height: 6px;
+     border-radius: 50%;
+ }
+
+ .barV {
+     width: 2px;
+     height: 12px;
+     border-radius: 1px;
+ }
+
+ .barH {
+     width: 12px;
+     height: 2px;
+     border-radius: 1px;
+ }
+
+ /* distribution */
+ .distributionSection {
+     margin-top: 12px;
+     display: flex;
+     flex-direction: column;
+     gap: 6px;
+ }
+
+ .sectionLabel {
+     font-size: 10px;
+     font-weight: bold;
+     color: #555;
+     text-transform: uppercase;
+     margin-left: 4px;
+     letter-spacing: 0.05em;
+ }
+
+ .distributionRow {
+     display: flex;
+     gap: 4px;
+     padding: 2px;
+     border: 1px solid var(--border-c);
+     border-radius: 4px;
+
+ }
+
+.distBtn {
+    flex: 1;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: #9e9e9e;
+    cursor: pointer;
+    border: 3px;
+    transition: all 0.2s;
+
+    &_sep {
+        width: 1px;
+        background: var(--border-c);
+    }
+}
+
+
+ .distBtn.active {
+     background-color: var(--neutral-active);
+     color: white;
+ }

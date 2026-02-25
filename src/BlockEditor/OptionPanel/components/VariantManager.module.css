@@ -1,0 +1,144 @@
+.variants {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    z-index: 99;
+    background: #272727;
+    border-bottom: 1px solid var(--border-c);
+    position: sticky;
+    top: 0;
+
+    &_card {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 3px;
+        padding: 4px 6px;
+        position: relative;
+        z-index: 1;
+
+        &_wrap {
+            display: flex;
+            gap: 2px;
+        }
+
+        &_items {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: 100%;
+            font-size: 11px;
+            flex-wrap: wrap;
+            transition: all ease .4s;
+
+            &:hover {
+                max-height: 200px;
+            }
+
+            [data-active="true"] {
+                border: 1px solid #4f4f4f;
+                border-radius: 4px;
+                padding: 2px 6px;
+                background: #383838;
+            }
+
+            span {
+                cursor: pointer;
+                display: inline-block;
+                /* will-change: transform; */
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+        &_options {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            align-items: center;
+            padding: 6px 0px;
+            width: 26px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    }
+
+    &_action {
+        display: flex;
+        gap: 2px;
+        justify-content: center;
+        align-items: center;
+        width: 26px;
+        max-width: 26px;
+        height: 26px;
+        background-color: #111;
+        border-radius: 3px;
+        transition: all ease .4s;
+
+        &:disabled {
+            pointer-events: none;
+            opacity: .5;
+        }
+
+        &:hover {}
+
+        &_panel {
+            display: flex;
+            gap: 2px;
+        }
+
+        &_add {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            background: #111;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        &_input {
+            height: 26px;
+            margin: 0;
+            border: 0;
+            background: transparent;
+            padding: 4px;
+            width: 166px;
+            font-size: 12px;
+            outline: 0;
+        }
+    }
+
+
+}
+
+.more_menu {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #2C2C2C;
+    border-radius: 6px;
+    padding: 6px 12px;
+    gap: 2px;
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.more_menu:hover .dropdown {
+    display: flex;
+}
+
+.invalid {
+    border-color: #e63946;
+    outline: none;
+}

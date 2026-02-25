@@ -1,0 +1,9 @@
+.variants {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--mantine-color-dark-2);
+    cursor: auto;
+    margin: 12px 0 24px;
+}

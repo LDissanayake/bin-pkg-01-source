@@ -1,0 +1,36 @@
+.colorPresetBlock {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    &Strip {
+        display: flex;
+        height: 16px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        &Item {
+            flex: 1;
+        }
+    }
+
+    &_active {
+        background: #2a2a2a;
+        width: 16px;
+        height: 16px;
+        border-radius: 3px;
+        position: absolute;
+        right: 1px;
+        top: 1px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

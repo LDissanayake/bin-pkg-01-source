@@ -1,0 +1,37 @@
+.wrap {
+    position: absolute;
+
+    &[data-lock="true"] {
+        pointer-events: none;
+        opacity: .6;
+    }
+}
+
+.header {
+    position: relative;
+    height: 1;
+    font-size: 12px;
+    color: var(--mantine-color-dark-1);
+}
+
+.header_content {
+    position: absolute;
+    top: 0;
+    height: 32px;
+    transform: translateY(-100%);
+}
+
+.header_label {
+    cursor: pointer;
+}
+
+.content {
+    position: relative;
+}
+
+.partWrapper {
+    transition: all ease .4s;
+    &:hover {
+        opacity: .6;
+    }
+}

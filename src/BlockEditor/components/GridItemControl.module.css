@@ -1,0 +1,21 @@
+.gridWrap {
+    display: flex;
+    padding: 12px;
+    border-radius: 6px;
+    background: var(--mantine-color-dark-8);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.alignWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+}

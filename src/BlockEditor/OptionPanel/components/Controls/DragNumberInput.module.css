@@ -1,0 +1,151 @@
+.dragNumberInput {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    height: 28px;
+    min-width: 86px;
+    max-width: 100%;
+    font-size: 11px;
+    background: var(--in-c);
+    border-radius: 6px;
+
+    &_icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+        transition: all ease .4s;
+
+        svg {
+            width: 28px;
+        }
+
+        &[data-dragging="true"] {
+            opacity: 0;
+            transform: scale(0);
+        }
+
+        &_wrap {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* aspect-ratio: 1 / 1; */
+            width: 76px;
+            height: 22px;
+        }
+    }
+
+    &_ball {
+        opacity: 0;
+        transition: all ease .4s;
+        width: 100%;
+        height: 100%;
+        background: #111111;
+        border-radius: 20px;
+        position: absolute;
+        pointer-events: none;
+
+        &[data-dragging="true"] {
+            opacity: 1;
+            transform: scale(0.4);
+            background: #bababa;
+        }
+
+        &[data-dragging-direction="right"] {
+            transform: scale(0.4) translateX(10px);
+        }
+
+        &[data-dragging-direction="left"] {
+            transform: scale(0.4) translateX(-10px);
+        }
+
+    }
+
+    &_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+
+        input {
+            font-size: 11px;
+            min-height: 12px;
+            max-height: 20px;
+            line-height: 1;
+            padding: 0;
+        }
+
+        /* Chrome, Edge, Safari, Opera */
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+
+        [data-position="right"] {
+            display: none;
+        }
+    }
+}
+
+.dragNumberInput_icon_wrap {
+    cursor: ew-resize;
+    user-select: none;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.dragNumberInput_wrap:hover .dragNumberInput_units {
+    opacity: 1;
+}
+
+.dragNumberInput_units {
+    opacity: 0;
+    display: inline-flex;
+    align-items: center;
+    transition: all ease .4s;
+    
+    &[data-active="true"] {
+        opacity: 1;
+    }
+}
+
+.dragNumberInput_unitTrigger {
+    right: 4px;
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background: var(--in-c);
+    padding: 0;
+    border-radius: 3px;
+}
+
+.dragNumberInput_unitOverlay {
+    background: var(--bg);
+    border-radius: 6px;
+    padding: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.dragNumberInput_unitItem {
+    display: block;
+    width: 100%;
+    padding: 4px 8px;
+    font-size: 11px;
+    text-align: left;
+    border-radius: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

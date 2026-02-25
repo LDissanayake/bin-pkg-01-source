@@ -1,0 +1,63 @@
+.control {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 11px;
+    background: var(--in-c);
+    border-radius: 6px;
+    padding: 0 3px;
+
+    &_icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+        transition: all ease .4s;
+
+        &_wrap {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            aspect-ratio: 1 / 1;
+            /* height: 28px; */
+        }
+    }
+
+    &_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        input {
+            font-size: 11px;
+            min-height: 12px;
+            max-height: 28px;
+            line-height: 1;
+            padding: 0;
+        }
+
+        /* Chrome, Edge, Safari, Opera */
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+
+        [data-position="right"] {
+            display: none;
+        }
+    }
+
+}
+
+.control_icon_wrap {
+    cursor: ew-resize;
+    user-select: none;
+    transition: background 0.2s, transform 0.15s;
+}

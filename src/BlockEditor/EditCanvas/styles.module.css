@@ -1,0 +1,37 @@
+.wrap {
+    /* ⚠️ CRITICAL: The 'all' property resets ALL CSS properties
+       on this element to their initial or inherited values. */
+    all: initial !important;
+
+    /* ⚠️ RE-APPLY: You must re-establish non-inherited essential properties */
+
+    /* 1. Box Model */
+    display: block !important;
+    box-sizing: border-box !important;
+
+    /* 2. Typography (Inheritable properties that are now reset) */
+    font-family: sans-serif !important;
+    /* Set a default font */
+    font-size: medium !important;
+    color: black !important;
+    line-height: normal !important;
+    text-align: left !important;
+
+    /* 3. Positioning/Layout */
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    /* 4. Background/Borders */
+    background: transparent !important;
+    border: none !important;
+
+    /* Add any other global or inherited styles you need to kill */
+    -webkit-font-smoothing: initial !important;
+    /* etc. */
+}
+
+.inner {
+    display: flex;
+    gap: 40px;
+}

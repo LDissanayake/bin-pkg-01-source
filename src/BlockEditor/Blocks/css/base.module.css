@@ -1,0 +1,275 @@
+.map_wrapper {}
+
+.map_item {}
+
+.map_item_header {
+    position: relative;
+    height: 32px;
+    display: flex;
+    margin-bottom: 1px;
+    background-color: #101010;
+    padding: 0 8px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 3px;
+}
+
+.map_item_header_color {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 12px;
+}
+
+.map_item_header_title {
+    font-size: 11px;
+}
+
+.mini_map {
+    display: flex;
+    position: absolute;
+    right: 18px;
+    gap: 8px;
+
+    &_item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+
+        &_color {
+            display: inline-block;
+            width: 7px;
+            height: 7px;
+            border-radius: 20px;
+        }
+
+        &_icon {
+            width: 12px;
+        }
+    }
+
+}
+
+.map_item_content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #101010;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 3px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 8px;
+
+    &:last-child {
+        border: 0;
+        padding-bottom: 0;
+    }
+
+    &_detail {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 11px;
+
+        &_left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+        }
+
+        &_icon {}
+
+        &_label {}
+
+        &_variant {
+            color: #fff;
+        }
+    }
+
+    &_switches {
+        display: flex;
+        gap: 4px;
+    }
+
+    &_switch {
+        opacity: 0.4;
+        width: 15px;
+        height: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+
+        &[data-active="true"] {
+            opacity: 1;
+        }
+
+        &_close {
+            opacity: .4;
+            background: #61517c;
+
+            &[data-active="true"] {
+                opacity: 1;
+            }
+        }
+
+        &_spacer {
+            width: 1;
+            height: 15;
+            background-color: #333;
+        }
+    }
+}
+
+.variableItemEdit {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    background: #111;
+
+    &_head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        position: relative;
+    }
+
+    &_inputwrap {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-size: 10px;
+    }
+
+    &_inputwrapDefault {}
+}
+
+/* ================= Variable List ================= */
+
+.variableList {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.variableItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 8px;
+    border-radius: 8px;
+    background: rgba(148, 163, 184, 0.08);
+}
+
+.variableItem:hover {
+    background: rgba(148, 163, 184, 0.14);
+}
+
+.variableItemLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    overflow: hidden;
+}
+
+.variableName {
+    font-size: 12px;
+    font-weight: 500;
+    color: #e5e7eb;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.variableMeta {
+    font-size: 10px;
+    color: #94a3b8;
+    line-height: 1;
+}
+
+.variableItemActions {
+    display: flex;
+    gap: 4px;
+}
+
+/* ================= Variable Editor ================= */
+
+.variableItemEdit {
+    position: relative;
+    margin-bottom: 8px;
+    padding: 10px 8px 8px;
+    border-radius: 10px;
+    background: #1b1b1b;
+}
+
+.variableItemEdit_head {
+    display: grid;
+    grid-template-columns: 1fr 88px;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.variableItemEdit_inputwrap {
+    width: 100%;
+}
+
+.variableItemEdit_inputwrapDefault {
+    margin-bottom: 6px;
+}
+
+/* ================= Subtle Editor Animations ================= */
+
+.variableItemEdit {
+    animation: varFadeIn 0.18s ease-out;
+}
+
+@keyframes varFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-4px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.controlVariablePreview {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--mantine-color-violet-8);
+}
+
+.controlVariablePreviewIcon {
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 6px;
+    color: var(--mantine-color-violet-4);
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
