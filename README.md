@@ -1,44 +1,87 @@
-# addifect-app
-addifect react app
+# Addifect Studio & Render Engine - Source Code
 
-# Guide to Publish Site Render Engine
+This repository contains the human-readable source code (React/JS) for the Addifect WordPress plugin, as required by the WordPress.org Plugin Guidelines (Guideline #4).
 
-To update the Site Render Engine in the **Addifect** plugin, follow these steps:
+---
 
-## 1. Run the Build
+## 🚀 Development Setup
 
-In the project root directory, run the following command to build the render engine:
+To modify the studio or the render engine, follow these steps:
 
-`npm run build`
+### Clone the repository
 
-This will generate the necessary files for deployment.
-
-## 2. Copy the Render Folder
-
-After the build completes, follow these steps:
-
-- Navigate to the `dist/` folder in your project.
-- Copy the `render/` folder generated in the `dist/` directory.
-
-## 3. Update the Addifect Plugin
-
-Next, update the plugin with the new render engine:
-
-- Navigate to the **Addifect** plugin folder: `wp-content/plugins/addifect/`.
-- Go to the `lib/` directory.
-- Delete the old `render/` folder inside `lib/`.
-- Paste the new `render/` folder that you copied from `dist/`.
-
-## 4. Update `ADDIFECT_VERSION`
-
-After updating the render folder, make sure to update the `ADDIFECT_VERSION` in the plugin to reflect the latest changes. You can find this in the plugin's main file (usually `addifect.php`) where the version is defined.
-
-For example, update:
-
-```php
-define( 'ADDIFECT_VERSION', '1.x.x' );
+```bash
+git clone https://github.com/LDissanayake/bin-pkg-01-source.git
+cd bin-pkg-01-source
 ```
 
-Increment the version number as necessary (e.g., `1.5.0` -> `1.6.0`).
+### Install dependencies
 
-----
+```bash
+npm install
+```
+
+### Start development mode
+
+```bash
+npm run start
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📦 Deployment to WordPress Plugin
+
+After running the build script, the compiled assets will be located in the `/dist` folder.
+
+Follow these steps to update your WordPress plugin:
+
+---
+
+### 1. Update Render Engine
+
+1. Navigate to:
+   `dist/render`
+2. Copy all files.
+3. Go to your WordPress plugin:
+   `addifect/assets/render/js/`
+4. Delete existing files and paste the new files here.
+
+---
+
+### 2. Update Studio (Editor)
+
+1. Navigate to:
+   `dist/editor`
+2. Copy all files **except** `index.html`.
+3. Go to your WordPress plugin:
+   `addifect/assets/studio/js/`
+4. Delete existing files and paste the new files here.
+
+---
+
+## 🛠 Live Development (Hot Reloading)
+
+To test changes live within a WordPress environment without constant rebuilding:
+
+1. Download and install the `addifect-dev.zip` helper plugin.
+2. Activate the helper plugin on your local WordPress install.
+3. Access your site with the dev flag:
+   `yoursite.com/wp-admin/?dev=true`
+
+### Dev Flags
+
+* `dev=true` → Points the plugin to your local build server
+* `dev=false` → Uses production assets from the `/assets` folder
+
+---
+
+## 📌 Note
+
+This repository is specifically for source code review and development.
+For the official WordPress plugin, please visit [Addifect on WordPress.org](https://wordpress.org/plugins/addifect/).
