@@ -1,0 +1,6 @@
+{
+  "out": "./docs",
+  "entryPoints": ["./src/**/*.tsx", "./src/**/*.ts"],
+  "excludePrivate": true,
+  "excludeProtected": true
+}
